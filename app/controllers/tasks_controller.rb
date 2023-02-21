@@ -24,7 +24,7 @@ end
 
 def update
   @task = Task.find(params[:id])
-  @task.update(params[:task]) # Will raise ActiveModel::ForbiddenAttributesError
+  @task.update(task_params) # Will raise ActiveModel::ForbiddenAttributesError
 end
 
 def destroy
