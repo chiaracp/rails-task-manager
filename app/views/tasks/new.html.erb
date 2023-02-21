@@ -1,0 +1,10 @@
+<form class="new_task" id="new_task" action="/tasks" accept-charset="UTF-8" method="post" data-remote="true">
+  <input type="hidden" name="authenticity_token" value="fUrBymmVzFG49YTQE9xKfohttEtW7eHnui2WT6KWpRXT6g9dz73lhZ7bRdHH+RuV/TFoB23OG5l1eo731o8l6g==">
+  <label for="task_title">Task name</label>
+  <input type="text" name="task[name]" id="task_title">
+  <label for="task_details">Details</label>
+  <input type="text" name="task[details]" id="task_details">
+
+  <button type="submit" name="commit" value="Create task" data-disable-with="Create task" type="button" class="btn btn-warning">Create task</button>
+
+</form>
